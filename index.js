@@ -16,7 +16,7 @@ for (let heroi of herois) {
     let xp = heroi.xp;
     let nivel = "";
 
-    // 3. Nível
+// 3. Nível
     if (xp <= 1000) {
         nivel = "Ferro";
     } else if (xp >= 1001 && xp <= 2000) {
@@ -35,6 +35,6 @@ for (let heroi of herois) {
         nivel = "Radiante";
     }
 
-    // 4. Saída 
+// 4. Saída 
     console.log(`O Herói de nome **${nome}** está no nível de **${nivel}**`);
 }
