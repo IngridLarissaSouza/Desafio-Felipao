@@ -1,4 +1,4 @@
-// 1. É necessário declarar a variável e abrir o array com [
+// 1. Nomes heróis
 const herois = [
     { nome: "Penina", xp: 950 },
     { nome: "Diana", xp: 1500 },
@@ -10,13 +10,13 @@ const herois = [
     { nome: "Jordan", xp: 10500 }
 ];
 
-// 2. Laço de repetição para percorrer a lista
+// 2. Laço de repetição 
 for (let heroi of herois) {
     let nome = heroi.nome;
     let xp = heroi.xp;
     let nivel = "";
 
-    // 3. Estrutura de decisão para classificar o nível
+    // 3. Nível
     if (xp <= 1000) {
         nivel = "Ferro";
     } else if (xp >= 1001 && xp <= 2000) {
@@ -35,6 +35,6 @@ for (let heroi of herois) {
         nivel = "Radiante";
     }
 
-    // 4. Saída formatada no terminal
+    // 4. Saída 
     console.log(`O Herói de nome **${nome}** está no nível de **${nivel}**`);
 }
